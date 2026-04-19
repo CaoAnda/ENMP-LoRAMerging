@@ -68,7 +68,7 @@ python test_vision.py --config vitB_r16_full_ties.py --mask "[0, 3, 7, 12]"
 python test_nli.py --config llama8B_r16_ties.py --mask "[1, 5, 9]"
 ```
 
-The `--mask` argument is a list of (flattened) module indices to **drop** during merging.
+The `--mask` argument is a list of (flattened) module indices to **prune** during merging.
 
 ---
 
@@ -88,6 +88,5 @@ Set these in `config['task_merge_config']`.
 
 ## Acknowledgements
 
-- Merging baselines and core-space implementation adapted from [core-space-merging](https://github.com/apanariello4/core-space-merging)
-- LoRA checkpoints from [KnOTS](https://github.com/gstoica27/KnOTS)
+This repository builds upon [core-space-merging](https://github.com/apanariello4/core-space-merging) and [KnOTS](https://github.com/gstoica27/KnOTS). We thank the authors for making their code available.
 
