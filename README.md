@@ -12,7 +12,7 @@
 ## Setup
 
 ```bash
-conda create -n enmp python=3.9 -f environment.yml
+conda env create -f environment.yml
 conda activate enmp
 ```
 
