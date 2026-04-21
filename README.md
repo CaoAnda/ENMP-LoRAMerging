@@ -1,6 +1,6 @@
 # Evolutionary Negative Module Pruning for Better LoRA Merging
 
-> ACL 2026 Main | [Paper](#) | [Citation](#citation)
+> ACL 2026 Main | [Paper](https://arxiv.org/abs/2604.17753) | [Citation](#citation)
 
 **ENMP** (Evolutionary Negative Module Pruning) is a LoRA pruning method designed to locate and exclude `negative modules` prior to merging, consistently improving the performance of existing merging algorithms (e.g., TV, TIES, DARE, TSV, KnOTS, CoreSpace) across both language and vision domains.
 
@@ -89,4 +89,22 @@ Set these in `config['task_merge_config']`.
 ## Acknowledgements
 
 This repository builds upon [core-space-merging](https://github.com/apanariello4/core-space-merging) and [KnOTS](https://github.com/gstoica27/KnOTS). We thank the authors for making their code available.
+
+---
+
+## Citation
+
+If you find this work useful, please cite:
+
+```bibtex
+@misc{cao2026evolutionarynegativemodulepruning,
+      title={Evolutionary Negative Module Pruning for Better LoRA Merging}, 
+      author={Anda Cao and Zhuo Gou and Yi Wang and Kaixuan Chen and Yu Wang and Can Wang and Mingli Song and Jie Song},
+      year={2026},
+      eprint={2604.17753},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2604.17753}, 
+}
+```
 
